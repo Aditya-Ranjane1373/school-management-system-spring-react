@@ -19,47 +19,33 @@ Maven
 REST API
 
 
+✨ Features
+🏠 Homepage with Navbar
+
+Register and Login options for Principal, Teacher, and Employee.
+
+👨‍🏫 Principal Dashboard
+
+View all Students and Teachers in tables.
+
+🧑‍💼 Employee Dashboard
+
+Add, Update, Delete Teacher records.
+
+👩‍🏫 Teacher Dashboard
+
+Add, Update, Delete Student records.
+
+📋 Student Information
+
+Name, Roll No, Class, Phone No.
+
+📚 Teacher Information
+
+Name, Phone No, Email ID, Subject.
+
+✅ Clean and attractive UI using Bootstrap.
 
 
-school-management-frontend/
-├── public/
-│   └── index.html               # Main HTML file
-│
-├── src/
-│   ├── assets/                  # Images, logos, and static assets
-│   │   └── logo.png
-│   │
-│   ├── components/              # Reusable components
-│   │   ├── Navbar.js
-│   │   └── Footer.js
-│   │
-│   ├── pages/                   # Main page views
-│   │   ├── Home.js
-│   │   ├── Login.js
-│   │   ├── Register.js
-│   │   ├── PrincipalDashboard.js
-│   │   ├── TeacherDashboard.js
-│   │   └── EmployeeDashboard.js
-│   │
-│   ├── student/                 # Student management components
-│   │   ├── AddStudent.js
-│   │   ├── UpdateStudent.js
-│   │   └── StudentList.js
-│   │
-│   ├── teacher/                 # Teacher management components
-│   │   ├── AddTeacher.js
-│   │   ├── UpdateTeacher.js
-│   │   └── TeacherList.js
-│   │
-│   ├── services/                # Axios API calls
-│   │   ├── studentService.js
-│   │   ├── teacherService.js
-│   │   └── authService.js
-│   │
-│   ├── App.js                   # Main React app
-│   ├── index.js                 # Entry point
-│   └── App.css                  # Global styles (Bootstrap + custom)
-│
-├── package.json                # Project config & dependencies
-└── vite.config.js /            # (If using Vite) or CRA config
+
 
